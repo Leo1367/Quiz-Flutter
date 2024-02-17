@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quiz/controller/quiz_controller.dart';
+import 'package:quiz/home_screen/home_screen.dart';
 
 QuizController quizController = QuizController();
 
@@ -62,6 +63,13 @@ class _QuizScreenState extends State<QuizScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black54,
+      appBar: AppBar(
+        backgroundColor: Colors.black54,
+        title: const Text(
+          "Quiz",
+          style: TextStyle(color: Colors.white),
+        ),
+      ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Center(
