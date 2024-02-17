@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:quiz/controller/quiz_controller.dart';
-import 'package:quiz/home_screen/home_screen.dart';
 
 QuizController quizController = QuizController();
 
